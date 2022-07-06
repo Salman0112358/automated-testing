@@ -14,11 +14,13 @@ function findShortestString(stringArr) {
       shortestString = str;
     }
   }
-  return shortestString.length;
+  return shortestString;
 }
 
-/*
+
+
 console.log(findShortestString(["it", "is", "a", "nice", "day"]), "a");
+/*
 console.log(findShortestString(["why", "hello", "to", "you"]), "to");
 console.log(findShortestString(["brave", "dance"]), "brave");
 */
