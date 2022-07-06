@@ -23,4 +23,4 @@ console.log(findShortestString(["why", "hello", "to", "you"]), "to");
 console.log(findShortestString(["brave", "dance"]), "brave");
 */
 
-module.exports = findShortestString
+module.exports = findShortestString;
